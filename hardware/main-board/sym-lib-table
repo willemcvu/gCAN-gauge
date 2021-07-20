@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name main-board-custom-symbols)(type Legacy)(uri ${KIPRJMOD}/main-board-custom-symbols.lib)(options "")(descr ""))
+)
