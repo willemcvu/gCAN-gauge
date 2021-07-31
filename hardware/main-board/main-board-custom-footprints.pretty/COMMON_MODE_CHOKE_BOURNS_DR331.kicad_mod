@@ -1,4 +1,5 @@
-(module COMMON_MODE_CHOKE_BOURNS_DR331 (layer F.Cu) (tedit 60FA3E2D)
+(module COMMON_MODE_CHOKE_BOURNS_DR331 (layer F.Cu) (tedit 6105AA27)
+  (attr smd)
   (fp_text reference REF** (at 0 -3.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
