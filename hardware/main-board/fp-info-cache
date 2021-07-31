@@ -1,4 +1,4 @@
-19728075251664950
+19729703011248950
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -85266,6 +85266,13 @@ inductor taiyo-yuden nr smd
 0
 2
 2
+main-board-custom-footprints
+SO-8_3.9x4.9mm_P1.27mm
+SO, 8 Pin (https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SO SO
+0
+8
+8
 main-board-custom-footprints
 USB_C_Receptacle_JAE_DX07S024WJ3R400
 USB TYPE C, VERT RCPT PCB, SMT, http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ117928.pdf
