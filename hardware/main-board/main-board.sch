@@ -128,7 +128,7 @@ AR Path="/60FFB96C" Ref="J1"  Part="1"
 AR Path="/60F6511D/60FFB96C" Ref="J?"  Part="1" 
 F 0 "J1" H 4000 4350 50  0000 C CNN
 F 1 "USB-C Receptacle" H 4300 4250 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_JAE_DX07S024WJ3R400" H 4500 3500 50  0001 C CNN
+F 2 "main-board-custom-footprints:USB_C_Receptacle_JAE_DX07S024WJ3R400" H 4500 3500 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4500 3500 50  0001 C CNN
 F 4 "DX07S024WJ3R400" H 4350 3500 50  0001 C CNN "MPN"
 	1    4350 3500
