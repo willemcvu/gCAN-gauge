@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:main-board-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -556,7 +555,7 @@ Text HLabel 12800 6250 2    50   Input ~ 0
 FRONT_BUTTON
 Wire Wire Line
 	12800 6250 12700 6250
-Text HLabel 13800 5250 2    50   Output ~ 0
+Text HLabel 12800 4550 2    50   Output ~ 0
 CANBUS_TERM_EN
 Text HLabel 2550 4000 0    50   Input ~ 0
 USB_VBUS
@@ -578,4 +577,6 @@ Wire Wire Line
 	3600 4650 3600 5050
 Wire Wire Line
 	3600 5050 2550 5050
+Wire Wire Line
+	12700 4550 12800 4550
 $EndSCHEMATC

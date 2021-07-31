@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:main-board-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -440,21 +439,21 @@ Wire Wire Line
 Wire Wire Line
 	5700 5950 5700 6850
 Wire Wire Line
-	6100 3500 9000 3500
-Wire Wire Line
-	5050 3500 6100 3500
-Connection ~ 6100 3500
-Wire Wire Line
-	6100 4600 6100 3500
-Wire Wire Line
-	6000 3600 8900 3600
-Wire Wire Line
-	5050 3600 6000 3600
-Connection ~ 6000 3600
-Wire Wire Line
-	6000 4500 6000 3600
-Wire Wire Line
 	5900 4600 6100 4600
 Wire Wire Line
 	5900 4500 6000 4500
+Wire Wire Line
+	5050 3500 6000 3500
+Wire Wire Line
+	5050 3600 6100 3600
+Wire Wire Line
+	6000 4500 6000 3500
+Connection ~ 6000 3500
+Wire Wire Line
+	6000 3500 9000 3500
+Wire Wire Line
+	6100 4600 6100 3600
+Connection ~ 6100 3600
+Wire Wire Line
+	6100 3600 8900 3600
 $EndSCHEMATC
