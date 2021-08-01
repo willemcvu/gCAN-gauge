@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:main-board-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -20,7 +19,7 @@ U 1 1 60FCBB15
 P 5800 5150
 F 0 "U3" H 5800 5565 50  0000 C CNN
 F 1 "AP1509-33SG-13" H 5800 5474 50  0000 C CNN
-F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 5750 5250 50  0001 C CNN
+F 2 "main-board-custom-footprints:SO-8_3.9x4.9mm_P1.27mm" H 5750 5250 50  0001 C CNN
 F 3 "" H 5750 5250 50  0001 C CNN
 F 4 "AP1509-33SG-13" H 5800 5150 50  0001 C CNN "MPN"
 	1    5800 5150
@@ -116,7 +115,7 @@ U 1 1 60FCF9E1
 P 6850 5000
 F 0 "L1" V 7040 5000 50  0000 C CNN
 F 1 "47uH" V 6949 5000 50  0000 C CNN
-F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-60xx" H 6850 5000 50  0001 C CNN
+F 2 "main-board-custom-footprints:L_Taiyo-Yuden_NR-60xx" H 6850 5000 50  0001 C CNN
 F 3 "~" H 6850 5000 50  0001 C CNN
 F 4 "NRS6045T470MMGKV" V 6850 5000 50  0001 C CNN "MPN"
 	1    6850 5000
@@ -153,11 +152,14 @@ F 3 "" H 7200 5500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7200 5350 7200 5500
-Text HLabel 3300 4750 0    50   Input ~ 0
+Text HLabel 4700 5000 0    50   Input ~ 0
 VIN
 Wire Wire Line
 	7200 5000 7550 5000
 Connection ~ 7200 5000
 Text HLabel 7550 5000 2    50   Output ~ 0
 3.3VOUT
+Wire Wire Line
+	4700 5000 4850 5000
+Connection ~ 4850 5000
 $EndSCHEMATC

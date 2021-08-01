@@ -1,4 +1,4 @@
-16050718311182648
+16052346829943749
 AERO-footprints
 87583-2010BLF
 USB - A USB 2.0 Receptacle Connector 4 Position 
@@ -49412,6 +49412,13 @@ SO SO
 0
 8
 8
+main-board-custom-footprints
+SW_SPST_B3S-1100
+Surface Mount Tactile Switch for High-Density Packaging with Ground Terminal
+Tactile Switch
+0
+5
+3
 main-board-custom-footprints
 USB_C_Receptacle_JAE_DX07S024WJ3R400
 USB TYPE C, VERT RCPT PCB, SMT, http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ117928.pdf
