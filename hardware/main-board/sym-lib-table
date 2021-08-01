@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name main-board-custom-symbols)(type Legacy)(uri ${KIPRJMOD}/main-board-custom-symbols.lib)(options "")(descr ""))
   (lib (name main-board-rescue)(type Legacy)(uri ${KIPRJMOD}/main-board-rescue.lib)(options "")(descr ""))
+  (lib (name gcan-gauge-github-link-qr)(type Legacy)(uri ${KIPRJMOD}/custom-symbol-libs/gcan-gauge-github-link-qr.lib)(options "")(descr ""))
 )
