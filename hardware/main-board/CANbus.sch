@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:main-board-cache
+EELAYER 29 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -192,10 +193,6 @@ Text HLabel 11400 5250 2    50   BiDi ~ 0
 CANL
 Wire Wire Line
 	10400 5300 10400 5250
-Wire Wire Line
-	9300 5350 9300 5250
-Wire Wire Line
-	9500 5350 9500 5150
 $Comp
 L power:GND #PWR015
 U 1 1 61196713
@@ -212,25 +209,15 @@ Wire Wire Line
 Wire Wire Line
 	10400 5250 10800 5250
 Wire Wire Line
-	9000 5250 9300 5250
-Connection ~ 9300 5250
-Wire Wire Line
-	9000 5150 9500 5150
-Connection ~ 9500 5150
-Wire Wire Line
 	10350 5300 10400 5300
 Wire Wire Line
 	9900 5150 9900 5100
 Wire Wire Line
 	9900 5100 9950 5100
 Wire Wire Line
-	9500 5150 9900 5150
-Wire Wire Line
 	9900 5250 9900 5300
 Wire Wire Line
 	9900 5300 9950 5300
-Wire Wire Line
-	9300 5250 9900 5250
 Wire Wire Line
 	10800 5650 10800 5250
 Connection ~ 10800 5250
@@ -255,4 +242,18 @@ F 4 "DR331-513AE" H 10150 5200 50  0001 C CNN "MPN"
 	1    10150 5200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9000 5250 9500 5250
+Wire Wire Line
+	9000 5150 9300 5150
+Wire Wire Line
+	9500 5350 9500 5250
+Connection ~ 9500 5250
+Wire Wire Line
+	9500 5250 9900 5250
+Wire Wire Line
+	9300 5350 9300 5150
+Connection ~ 9300 5150
+Wire Wire Line
+	9300 5150 9900 5150
 $EndSCHEMATC

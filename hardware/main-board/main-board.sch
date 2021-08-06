@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:main-board-cache
+EELAYER 29 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -473,4 +474,48 @@ F 3 "" H 3050 7200 50  0001 C CNN
 $EndComp
 Text Notes 7050 2800 0    50   ~ 0
 USB IC needs VBUS for sense
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 610C9B41
+P 3850 7050
+F 0 "H1" H 3950 7096 50  0000 L CNN
+F 1 "M2" H 3950 7005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 3850 7050 50  0001 C CNN
+F 3 "~" H 3850 7050 50  0001 C CNN
+	1    3850 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 610CA4FC
+P 4250 7050
+F 0 "H3" H 4350 7096 50  0000 L CNN
+F 1 "M2" H 4350 7005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 4250 7050 50  0001 C CNN
+F 3 "~" H 4250 7050 50  0001 C CNN
+	1    4250 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 610CA73F
+P 3850 7400
+F 0 "H2" H 3950 7446 50  0000 L CNN
+F 1 "M2" H 3950 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 3850 7400 50  0001 C CNN
+F 3 "~" H 3850 7400 50  0001 C CNN
+	1    3850 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 610CA9AE
+P 4250 7400
+F 0 "H4" H 4350 7446 50  0000 L CNN
+F 1 "M2" H 4350 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 4250 7400 50  0001 C CNN
+F 3 "~" H 4250 7400 50  0001 C CNN
+	1    4250 7400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
