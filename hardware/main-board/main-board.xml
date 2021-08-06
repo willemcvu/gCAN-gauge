@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\wille\Documents\GitHub\gCAN-gauge\hardware\main-board\main-board.sch</source>
-    <date>8/6/2021 1:22:24 AM</date>
+    <date>8/6/2021 1:51:11 AM</date>
     <tool>Eeschema (5.1.2)-2</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -294,7 +294,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF</datasheet>
       <fields>
-        <field name="MPN">NUP2105L</field>
+        <field name="MPN">NUP2105LT1G</field>
       </fields>
       <libsource lib="Power_Protection" part="NUP2105L" description="Dual Line CAN Bus Protector, 24Vrwm"/>
       <sheetpath names="/CANbus/" tstamps="/60F65149/"/>

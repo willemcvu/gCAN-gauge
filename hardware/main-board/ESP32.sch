@@ -24,7 +24,7 @@ F 0 "U5" H 12250 7050 50  0000 C CNN
 F 1 "ESP32-WROOM-32" H 12550 6950 50  0000 C CNN
 F 2 "RF_Module:ESP32-WROOM-32" H 12100 4050 50  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 11800 5600 50  0001 C CNN
-F 4 "ESP32-WROOM-32" H 12100 5550 50  0001 C CNN "MPN"
+F 4 "ESP32-WROOM-32D" H 12100 5550 50  0001 C CNN "MPN"
 	1    12100 5550
 	1    0    0    -1  
 $EndComp
