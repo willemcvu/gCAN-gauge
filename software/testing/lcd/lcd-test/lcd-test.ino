@@ -1,12 +1,24 @@
 #include <lvgl.h>
 #include <SPI.h>
 #include <TFT_eSPI.h> // Hardware-specific library
+#include <WiFiManager.h> // https://github.com/tzapu/WiFiManager
+#include <ESPmDNS.h>  // include MDNS
 
+#define FRONT_SW 27
+
+// WIFI MANAGER SETUP
+WiFiManager wm;
+unsigned int  timeout   = 120; // seconds to run for
+unsigned int  startTime = millis();
+bool portalRunning      = false;
+bool startAP            = false; // start AP and webserver if true, else start only webserver
+
+//TFT STARTUP
 TFT_eSPI tft = TFT_eSPI();       // Invoke custom library
 static lv_disp_buf_t disp_buf;
 static lv_color_t buf[LV_HOR_RES_MAX * 10];
 
-
+// STARTUP ANIMATION CONFIG
 //startup animation sweep time.
 //delay before starting animation
 #define STARTUP_GAUGE_SWEEP_DELAY_MS 500
@@ -52,6 +64,10 @@ void update_ui(lv_task_t* task) {
 
 void setup() {
   Serial.begin(115200);
+  Serial.println("\n gauge booted");
+
+  
+  pinMode(FRONT_SW, INPUT_PULLUP);
   
   lv_init();
   
@@ -87,9 +103,22 @@ void setup() {
   
   lv_scr_load(screenMain);
 
+  // WiFi manager startup
+  // wm.resetSettings();
+  wm.setHostname("MDNSEXAMPLE");
+  // wm.setEnableConfigPortal(false);
+  // wm.setConfigPortalBlocking(false);
+  wm.autoConnect();
+  
 }
 
 void loop() {
   lv_task_handler(); /* let the GUI do its work */
   delay(5);
+
+  //wifimanager
+  #ifdef ESP8266
+  MDNS.update();
+  #endif
+  doWiFiManager();
 }
